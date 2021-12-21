@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--fonts de google-->
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https: //fonts.googleapis.com/css2? family = Comforter + Brush &family = Yellowtail y display = swap "rel =" stylesheet ">
+        <link rel="stylesheet" href="./estilo/style.css">
+        <title>mi banda</title>
+    </head>
+<body>
+<header>
+    <h1 class="titulo">Mi banda</h1>
+    <nav>
+        <ul>
+            <li><a href="./index.html">inicio</li></a>
+            <li><a href="./discografias.html">discografia</li></a>
+            <li><a href="./galeria.html">galeria</li></a>
+            <li><a href="./proximas fechas.html">proximas fechas</li></a>
+            <li><a href="./contacto.html">contacto</li></a>
+        </ul>
+    </nav>
+</header>
+   <main>
+       <section>
+           <h2>Contacto</h2>
+       </section> 
+       <section>
+        <form action="#">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">completa con tu nombre</label>
+                    <input type="text" name="name" placeholder="escribe tu nombre">
+                </div>
+                <div>
+                 <label for="apellido">completa con tu apellido</label>
+                 <input type="text" name="name" placeholder="escribe tu apellido">
+             </div>
+             <br>
+             <div>
+                 <label for="email">*escribe tu mail</label>
+                 <input type="email" name="email" placeholder="escribe tu mail" required>
+             </div>
+             <br>
+             <div>
+                 <label for="nacionalidad">Elije tu pais de residencia</label>
+                 <select name="pais" id="" >
+                     <option value="Argentina">ARGENTINA</option>
+                     <option value="Uruguay">URUGUAY</option>
+                     <option value="Paraguay">PARAGUAY</option>
+                     <option value="chile">CHILE</option>
+                 </select>
+             </div>
+             <br>
+             <div>
+                 <label for="comentario">deja tu consulta</label>
+                 <br>
+                 <textarea name="comentario" id="" cols="30" rows="5"></textarea>
+             </div>
+             <br>
+             <div>
+                 <input type="submit" value="enviar"> <input type="reset" value="borrar">
+             </div>
+            </fieldset>
+        </form>
+       </section>
+      
+   </main>
+   <footer>
+       <hr>
+       <br>
+       <h4>created by matias</h4> 
+   </footer>
+ 
+</body>
+</html>
