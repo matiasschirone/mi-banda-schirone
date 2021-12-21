@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.padre{
+    background-image: linear-gradient(black, blue);
+}
+
 body{
     background-color: mediumseagreen;
 }
@@ -22,6 +26,13 @@ h1{
     font-size: 2rem;
     text-decoration: underline;
 }
+.skew:hover{
+    transform: skew(20deg);
+}
+.translate:hover{
+    transform: translate(10px ,20px);
+}
+
 a{
     color: blanchedalmond;
     
@@ -34,8 +45,9 @@ li{
 }
 h2{
     font-family: 'Yellowtail', cursive;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: blanchedalmond;
+    text-align: center;
 }
 .text{
     margin: 20px;
@@ -65,7 +77,6 @@ h2{
     font-size: 1rem;
     width: 20px;
 }
-}
-.h4{
+.footer{
     text-align: right;
 }
