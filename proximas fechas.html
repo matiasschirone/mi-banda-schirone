@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <!--fonts de google-->
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
@@ -12,42 +13,51 @@
         <title>mi banda</title>
     </head>
 <body>
-<header>
-    <h1 class="titulo skew">Mi banda</h1>
-    <nav>
-        <ul>
-            <li><a href="./index.html">inicio</li></a>
-            <li><a href="./discografias.html">discografia</li></a>
-            <li><a href="./galeria.html">galeria</li></a>
-            <li><a href="./proximas fechas.html">proximas fechas</li></a>
-            <li><a href="./contacto.html">contacto</li></a>
-        </ul>
-    </nav>
-</header>
-   <main>
-       <section>
-           <h2 class="skew">proximas fechas</h2>
-       </section> 
+    <main class="container">
+        <div class="row">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./discografias.html">discografia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./galeria.html">galeria</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./proximas fechas.html">proximas fechas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">contacto</a>
+          </li>
+      </ul>
+        <h1 class="titulo skew">Mi banda</h1>
+        </div>
+   <div class="row">
+       <div class="col-12">
+           <h2 class="skew p-3 text-center">proximas fechas</h2>
+       </div> 
        <section>
            <h3>
-               <table border="1">
-                   <tr>
+               <table border="3">
+                   <tr class="p-3 text-black">
                        <th>fecha</th>
                        <th>lugar</th>
                        <th>puntos de venta</th>
                    </tr>
-                   <tr>
+                   <tr class="p-3 text-black">
                        <td>22/02/2021</td>
                        <td>Estadio unico de La Plata</td>
                        <td>La esquina del rock</td>
                    </tr>
-                   <tr>
+                   <tr class="p-3 text-black">
                        <td>30/09/2021</td>
                        <td>Estadio malvinas argentinas</td>
                        <td>La esquina del rock</td>
                    </tr>
                    
-                   <tr>
+                   <tr class="p-3 text-black">
                        <td>29/08/2001</td>
                        <td>La Reina Pub</td>
                        <td>La esquina del rock</td>
@@ -55,21 +65,23 @@
                </table>
            </h3>
        </section>
-       <br>
-       <hr>
-       <section>
-           <h2 class="skew">venta online</h2>
-           <ul class="venta">
-               <li>TuRecital.com</li>
-               <li>Ticketock</li>
-           </ul>
-       </section>
-   </main>
-   <footer class="footer">
-       <hr>
-       <br>
-       <h4>created by matias</h4>
-   </footer>
-        
+    </div>
+    <div class="row">
+        <div class="col-12 bg-primary border"></div>
+        <h2 class="p-3 text-center skew">venta online</h2>
+        <ul class="p-3">
+            <li>TuRecital.com</li>
+            <li>Ticketock</li>
+        </ul>
+    </section>
+ </div>
+ <div class="row">
+     <div class="col-12 bg-black bg-gradient">
+     <h4 class="p-3 text-light text-end">created by matias</h4>
+     </div>
+ </div>
+</main>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>     
 </body>
 </html>

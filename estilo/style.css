@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.padre{
+.container{
     background-image: linear-gradient(black, blue);
 }
 
 body{
-    background-color: mediumseagreen;
+    background-color: #000703;
 }
 header{
     background-color: black;
@@ -33,50 +33,19 @@ h1{
     transform: translate(10px ,20px);
 }
 
-a{
-    color: blanchedalmond;
-    
-}
-ul{
-    text-align: right;
-}
-li{
-    display: inline-block;
-}
 h2{
     font-family: 'Yellowtail', cursive;
     font-size: 1.5rem;
     color: blanchedalmond;
     text-align: center;
 }
-.text{
-    margin: 20px;
-    padding: 10px;
-    color: beige;
+p{
     font-family: 'Yellowtail', cursive;
-    font-style: oblique;
-    line-height: 2;
+    line-height: 2; 
 }
-.caja{
-    margin: 20px;
-    padding: 10px;
-    color: beige;
-    font-size: 1rem;
-    font-family: 'Yellowtail', cursive;
-    font-style: oblique;
-    line-height: 2;
-    width: 500px;
-    height: 300px;
-    display: inline-block;
-}
-.venta{
-    text-align: left;
-    display: block;
+li, td, th{
     color: blanchedalmond;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    width: 20px;
 }
-.footer{
-    text-align: right;
+td, th{
+    text-align: center;
 }
