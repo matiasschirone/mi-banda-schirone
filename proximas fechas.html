@@ -1,87 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!--fonts de google-->
-        <link rel = "preconnect" href = "https://fonts.googleapis.com">
-        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-        <link href = "https: //fonts.googleapis.com/css2? family = Comforter + Brush &family = Yellowtail y display = swap "rel =" stylesheet ">
-        <link rel="stylesheet" href="./estilo/style.css">
-        <title>mi banda</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- seo -->
+    <title>Mi Banda - Inicio</title>
+    <meta content=""
+        name="esta es una pagina creada para publicitar una banda de musica y poder hacer con esto llegar sus obras a publico de todas las edades">
+    <meta
+        content="Banda, musica, rock,  clasico, metal, publico, recital, shows, profesores de musica,espectaculos en vivo, discografia"
+        name="keywords">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./assets/css/estilo.css" rel="stylesheet">
+
+
+</head>
+
 <body>
-    <main class="container">
-        <div class="row">
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./discografias.html">discografia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./galeria.html">galeria</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./proximas fechas.html">proximas fechas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">contacto</a>
-          </li>
-      </ul>
-        <h1 class="titulo skew">Mi banda</h1>
+
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">Mi Banda</a></h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="./index.html">inicio</a></li>
+                    <li><a class="nav-link scrollto" href="./galeria.html">Galeria</a></li>
+                    <li><a class="nav-link scrollto " href="./proximas fechas.html">Proximas Fechas</a></li>
+                    <li><a class="nav-link scrollto" href="./discografias.html">Discografia</a></li>
+                    <li><a class="nav-link scrollto" href="./contacto.html">Contacto</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
         </div>
-   <div class="row">
-       <div class="col-12">
-           <h2 class="skew p-3 text-center">proximas fechas</h2>
-       </div> 
-       <section>
-           <h3>
-               <table border="3">
-                   <tr class="p-3 text-black">
-                       <th>fecha</th>
-                       <th>lugar</th>
-                       <th>puntos de venta</th>
-                   </tr>
-                   <tr class="p-3 text-black">
-                       <td>22/02/2021</td>
-                       <td>Estadio unico de La Plata</td>
-                       <td>La esquina del rock</td>
-                   </tr>
-                   <tr class="p-3 text-black">
-                       <td>30/09/2021</td>
-                       <td>Estadio malvinas argentinas</td>
-                       <td>La esquina del rock</td>
-                   </tr>
-                   
-                   <tr class="p-3 text-black">
-                       <td>29/08/2001</td>
-                       <td>La Reina Pub</td>
-                       <td>La esquina del rock</td>
-                   </tr>
-               </table>
-           </h3>
-       </section>
-    </div>
-    <div class="row">
-        <div class="col-12 bg-primary border"></div>
-        <h2 class="p-3 text-center skew">venta online</h2>
-        <ul class="p-3">
-            <li>TuRecital.com</li>
-            <li>Ticketock</li>
-        </ul>
-    </section>
- </div>
- <div class="row">
-     <div class="col-12 bg-black bg-gradient">
-     <h4 class="p-3 text-light text-end">created by matias</h4>
-     </div>
- </div>
-</main>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>     
+    </header><!-- End Header -->
+
+    <main class="main-container">
+        <section class="disco">
+            <div class="row justify-content-center">
+                <div class="col-auto mt-5">
+                    <h2 class="skew p-3 text-center">proximas fechas</h2>
+                </div>
+                <section">
+                    <h3>
+                        <table border="2">
+                            <tr class="p-3 text-black">
+                                <th>fecha</th>
+                                <th>lugar</th>
+                                <th>puntos de venta</th>
+                            </tr>
+                            <tr class="p-3 text-black">
+                                <td>22/02/2021</td>
+                                <td>Estadio unico de La Plata</td>
+                                <td>La esquina del rock</td>
+                            </tr>
+                            <tr class="p-3 text-black">
+                                <td>30/09/2021</td>
+                                <td>Estadio malvinas argentinas</td>
+                                <td>La esquina del rock</td>
+                            </tr>
+
+                            <tr class="p-3 text-black">
+                                <td>29/08/2001</td>
+                                <td>La Reina Pub</td>
+                                <td>La esquina del rock</td>
+                            </tr>
+                        </table>
+                    </h3>
+                </section>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 bg-primary border"></div>
+                <h2 class="p-3 text-center skew">venta online</h2>
+                <ul class="p-3">
+                    <li>TuRecital.com</li>
+                    <li>Ticketock</li>
+                </ul>
+            </div>
+        </section>
+        </div>
+
+        </section>
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="footer-info">
+                            <h3>Mi Banda</h3>
+                            <p>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                Copyright <strong><span>Mi Banda</span></strong>. All Rights Reserved
+            </div>
+
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
